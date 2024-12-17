@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Учебник</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="about.html">Примеры</a></li>
+        <li><a href="contact.html">Связаться с нами</a></li>
+        <li><a href="feedback.html">Отзывы и комментарии</a></li>
+      </ul>
+    </nav>
+    <h1>CSS Учебник для начинающих</h1>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Что такое CSS?</h2>
+      <p>CSS (Cascading Style Sheets) — это язык, который используется для оформления веб-страниц.</p>
+      <button onclick="location.href='about.html'">Узнать больше</button>
+    </section>
+
+    <section class="examples">
+      <h2>Пример кода CSS</h2>
+      <pre id="css-code">
+        body {
+          background-color: #EAF6FF;
+          font-family: Arial, sans-serif;
+        }
+      </pre>
+      <button onclick="copyCode('css-code')" >Скопировать код</button>
+    </section>
+
+    <section class="facts">
+      <h2>Интересные факты о CSS</h2>
+      <ul>
+        <li>CSS был представлен в 1996 году для упрощения работы с дизайном сайтов.</li>
+        <li>Имя CSS (Cascading Style Sheets) связано с понятием "каскадности", позволяющим применять стили в порядке их приоритета.</li>
+        <li>До появления CSS оформление страниц выполнялось с помощью HTML, что делало код громоздким и сложным для редактирования.</li>
+        <li>CSS поддерживает анимации, позволяя создавать сложные эффекты без использования JavaScript.</li>
+        <li>С помощью CSS можно задавать стили не только для экранов, но и для печати.</li>
+        <li>CSS-свойство z-index управляет тем, как элементы накладываются друг на друга.</li>
+        <li>С помощью @media можно адаптировать дизайн сайта для различных устройств (мобильных телефонов, планшетов).</li>
+        <li>CSS поддерживает переменные, что упрощает управление цветами и другими повторяющимися значениями в коде.</li>
+        <li>Свойство clip-path позволяет создавать сложные фигуры, вырезая части элементов.</li>
+        <li>CSS позволяет использовать пользовательские шрифты через @font-face и популярные сервисы, такие как Google Fonts.</li>
+      </ul>
+    </section>
+
+    <section class="quiz">
+      <h2>Тест: Знаете ли вы CSS?</h2>
+      <p>Каким свойством задаётся цвет текста?</p>
+      <ul>
+        <li><button onclick="alert('Правильно! Это свойство color.')">color</button></li>
+        <li><button onclick="alert('Неправильно! Попробуйте снова.')">background-color</button></li>
+        <li><button onclick="alert('Неправильно! Попробуйте снова.')">font-size</button></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Учебник CSS. Все права защищены.</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>

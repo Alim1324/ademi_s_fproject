@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>О нас</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="about.html">Примеры анимаций</a></li>
+        <li><a href="contact.html">Связаться с нами</a></li>
+        <li><a href="feedback.html">Отзывы и комментарии</a></li>
+      </ul>
+    </nav>
+    <h1>Мини Учебник по CSS</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Миссия</h2>
+      <p>Мы хотим сделать обучение CSS легким и доступным для всех.</p>
+    </section>
+
+    <section>
+      <h2>Пример оформления заголовков</h2>
+      <pre id="about-css-code">
+        h1, h2 {
+          color: #007BFF;
+          text-align: center;
+        }
+      </pre>
+      <button onclick="copyCode('about-css-code')">Скопировать код</button>
+      <pre id="about-css-code">
+       Анимация "Плавное изменение цвета фона" 
+        /* Исходный стиль */
+div {
+  background-color: lightblue;
+  width: 200px;
+  height: 200px;
+  transition: background-color 0.5s ease;
+}
+
+/* Стиль при наведении */
+div:hover {
+  background-color: orange;
+}
+ </pre>
+<button onclick="copyCode('about-css-code')" >Скопировать код</button>
+     
+      <pre id="about-css-code">
+        /* Исходное состояние */
+div {
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+  animation: move 2s infinite alternate;
+}
+
+/* Ключевые кадры для анимации */
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(300px);
+  }
+} 
+<pre id="about-css-code">
+  /* Исходное состояние */
+div {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  border-radius: 50%;
+  animation: pulse 1.5s infinite;
+}
+</pre>
+<button onclick="copyCode('about-css-code')">Скопировать код</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Учебник CSS. Все права защищены.</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+/* Общие стили */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EAF6FF;
+    color: #333;
+  }
+  
+  header {
+    background-color: #0f486c;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+.h1{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.h1 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.p {
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;ы
+}
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  pre {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+  }
+  
+  button {
+    background-color:#0f486c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px 0 0 0;
+  }
+  .copy2{
+    background-color:#0f486c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    background-color:#0f486c;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
